@@ -1,0 +1,17 @@
+{
+  "name": "TailorMed-ETL-home-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "bytes": "^3.1.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "moment": "^2.29.3"
+  },
+  "scripts": {
+    "start": "nodemon ./server/server-main.js"
+  }
+}

@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "521f8fd8-c457-4efb-97f9-f8731851ef59",
+		"name": "temp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/v1/PatientsTreatment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"hospitalId\": 2,\r\n    \"patients\": {\"url\": \"MockDB/2_patient.csv\"},\r\n     \"treatments\": {\"url\": \"MockDB/2_treatment.csv\"}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/v1/PatientsTreatment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"v1",
+						"PatientsTreatment"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				},
+				"description": "For TailorMed"
+			},
+			"response": []
+		}
+	]
+}
